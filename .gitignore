@@ -1,0 +1,48 @@
+.project
+*.sublime-workspace
+.sublime-project
+.sass-cache/
+*.map
+.idea/
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ----- Nodejs-related tools (Grunt, Gulp, Browserify, Batman...)
+# Also including css regression data
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules/
+backstop_data/
+npm-debug.log
+
+.serverless
+docker-compose-local.yml
+
+v8-compile-cache*
+
+htmlcov/
+coverage.xml
+.coverage
+
+env/.specific
+localstack/
+
+.vscode/settings.json
